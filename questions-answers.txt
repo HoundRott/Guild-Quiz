@@ -7,7 +7,7 @@ Spring (+ guild) - Summer (+ guild) - Autumn (+ guild) - Winter (+ guild)
 3. "What element are you most drawn to?"
 Earth (+ guild) - Air (+ guild) - Fire (+ guild) - Water (+ guild)
 
-4. "Your friends call you asking for help, how do you respond?"
+4. "Your friends call you asking for help, how do you react?"
 Jump into action, they're your friends afterall! (+ guild) - Hang up on them, bold of them to assume you'd care about them like that (+ guild) - Hesitantly agree, you're scared but your friends need you (+ guild) - Ask what's in it for you, why would you go through all that effort for nothing? (+ guild)
 
 5. "You find a lost wallet on the ground, what do you do?"
@@ -31,13 +31,14 @@ Laugh and try to continue the conversation, hopefully they wont notice (+ guild)
 11. "A stranger is running at you looking panicked, what do you do?"
 Turn and run away with them, they're definitely running from something and so should you! (+ guild) - Ask them what's going on, you'll help in any way you can (+ guild) - Do your best to avoid eye-contact and continue on your path, you don't want to deal with any crackheads today (+ guild) - Help them find a place to hide, whatever they're running from must be life-threatening (+ guild)
 
-12. "You get word of a local missing person and learn there is a hefty reward for their return, do you take on the task?
-Absolutely, anyone who passes up that kind of money is an idiot (+ guild) - Of course you do; regardless of reward, someone is in need of help! (+ guild) - No way! No amount of money is worth risking your life (+ guild) - 
+12. "You get word of a local missing person and learn there is a hefty reward for their return, do you take on the task?"
+Absolutely, anyone who passes up that kind of money is an idiot (+ guild) - Of course! Regardless of reward, someone is in need of help! (+ guild) - No way! No amount of money is worth risking your life (+ guild) - Nope, your time is WAY more valuable than that (+ guild)
 
-13. "
+13. "You find a stranger passed out cold in a park, how do you react?"
+You call for help, hopefully they're okay! (+ guild) - You take whatever valuables they have, they won't know a thing (+ guild) - You leave them alone and continue on your journey, you don't want to be a part of whatever is going on there (+ guild) - You try to wake them up and walk off when that doesn't work. Welp, at least you tried (+ guild)
 
+14. "You and a group of others are rewarded greatly for a task well done but are expected to share, how do you split it?"
+You don't, you are the most deserving of it and therefore take everything for yourself (+ guild) - You split it equally among the group, everyone should get a fair share! (+ guild) - You give the most to who you believe worked the hardest and go down from there, no participation trophies here (+ guild) - You don't take any of it, knowing you helped someone out is reward enough (+ guild)
 
-14. "
-
-
-15. "
+15. "You find a cave leading to an underground oasis, completely untouched by any civilization. What's your next move?"
+You stay there forever, this place has everything you need! Who cares about anyone who loves you back home? (+ guild) - You leave and never speak of it to anyone, something this beautiful should remain undisdurbed (+ guild) - You return home and tell everyone about the oasis, this could save so many people from starvation and homelessness! (+ guild) - You claim it as your own and sell it to the highest bidder, sorry not sorry Mother Nature (+ guild)

@@ -1,10 +1,132 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>What Pokemon Are You Quiz</title>
+  <title>What Guild Are You Quiz</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <
+  <div class="quiz-container">
+    <h1>What's your Guild?</h1>
+    <form id="quiz-form">
+      <div class="question">
+        <p>What color palette do you vibe with the most?</p>
+        <label><input type="radio" name="q1" data-type="Healer" data-type="Bravery">Neutral</label>
+        <label><input type="radio" name="q1" data-type="Bravery" data-type="Mystical">Vibrant</label>
+        <label><input type="radio" name="q1" data-type="Edgy" data-type="Mystical">Dark</label>
+        <label><input type="radio" name="q1" data-type="Healer" data-type="Edgy">Pastel</label>
+      </div>
+
+      <div class="question">
+        <p>What is your favorite season?</p>
+        <label><input type="radio" name="q2" data-type="Healer" data-type="Bravery">Spring</label>
+        <label><input type="radio" name="q2" data-type="Bravery" data-type="Healer">Summer</label>
+        <label><input type="radio" name="q2" data-type="Edgy" data-type="Mystical">Autumn</label>
+        <label><input type="radio" name="q2" data-type="Mystical" data-type="Edgy">Winter</label>
+      </div>
+
+      <div class="question">
+        <p>What element are you most drawn to?</p>
+        <label><input type="radio" name="q3" data-type="Edgy" data-type="Bravery">Earth</label>
+        <label><input type="radio" name="q3" data-type="Mystical" data-type="Healer">Air</label>
+        <label><input type="radio" name="q3" data-type="Edgy" data-type="Bravery">Fire</label>
+        <label><input type="radio" name="q3" data-type="Mystical" data-type="Healer">Water</label>
+      </div>
+
+      <div class="question">
+        <p>Your friends call you asking for help, how do you react?</p>
+        <label><input type="radio" name="q4" data-type="Bravery" data-type="Healer">Jump into action, they're your friends after all!</label>
+        <label><input type="radio" name="q4" data-type="Edgy" data-type="Mystical">Hang up on them, bold of them to assume you'd care about them like that</label>
+        <label><input type="radio" name="q4" data-type="Healer" data-type="Bravery">Hesitantly agree, you're scared but your friends need you</label>
+        <label><input type="radio" name="q4" data-type="Mystical" data-type="Edgy">Ask what's in it for you, why would you go through all that effort for nothing?</label>
+      </div>
+
+      <div class="question">
+        <p>You find a lost wallet on the ground, what do you do?</p>
+        <label><input type="radio" name="q5" data-type="Bravery" data-type="Healer">Find the owner and return it, stealing is bad!</label>
+        <label><input type="radio" name="q5" data-type="Edgy" data-type="Mystical">Keep it for yourself, finders keepers losers weepers</label>
+        <label><input type="radio" name="q5" data-type="Healer" data-type="Mystical">Ignore it and leave, maybe someone else will do something with it</label>
+        <label><input type="radio" name="q5" data-type="Bravery" data-type="Edgy">Return it after taking something, no good deed is done without compensation; for you at least</label>
+      </div>
+
+      <div class="question">
+        <p>Someone breaks into your home late at night, what's your next move?</p>
+        <label><input type="radio" name="q6" data-type="Bravery" data-type="Healer">Find a weapon to defend yourself, you don't want to fight but you won't back down from one either</label>
+        <label><input type="radio" name="q6" data-type="Healer" data-type="Mystical">Call for help, you don't know how to deal with this alone!</label>
+        <label><input type="radio" name="q6" data-type="Bravery" data-type="Edgy">Attack the intruder head on, they'll rue the day they broke into YOUR home</label>
+        <label><input type="radio" name="q6" data-type="Mystical" data-type="Edgy">Escape through a window, your safety is more important than some objects</label>
+      </div>
+
+      <div class="question">
+        <p>A stranger runs up to you on the street declaring you their enemy and attempts to battle you, how do you respond?</p>
+        <label><input type="radio" name="q7" data-type="Mystical" data-type="Edgy">Ask which one they are, you have many enemies already</label>
+        <label><input type="radio" name="q7" data-type="Healer" data-type="Bravery">Laugh and walk away, they must be playing a prank</label>
+        <label><input type="radio" name="q7" data-type="Mystical" data-type="Healer">Try to talk through the situation with them, this is all just a misunderstanding</label>
+        <label><input type="radio" name="q7" data-type="Bravery" data-type="Edgy">Battle them for the fun of it, why not?</label>
+      </div>
+
+      <div class="question">
+        <p>You're walking alone at night and hear a strange noise, what do you do?</p>
+        <label><input type="radio" name="q8" data-type="Mystical" data-type="Bravery" data-type="Healer">Investigate the noise, maybe it's something in need of help</label>
+        <label><input type="radio" name="q8" data-type="Healer" data-type="Edgy">Leave the area immediately, you're not dealing with that</label>
+        <label><input type="radio" name="q8" data-type="Mystical" data-type="Edgy" data-type="Bravery">Ignore it and continue on your walk, you know whatever it is can't win against you</label>
+      </div>
+
+      <div class="question">
+        <p>You find yourself lost and starving. While looking for food, you come across a village of locals. What is your next move?</p>
+        <label><input type="radio" name="q9" data-type="Healer" data-type="Bravery">Ask them for help, maybe they'll be kind enough to feed you</label>
+        <label><input type="radio" name="q9" data-type="Edgy" data-type="Mystical">Steal whatever you're able to, they can always get more</label>
+        <label><input type="radio" name="q9" data-type="Bravery" data-type="Healer">Look for food elsewhere, who knows what they would do to you?</label>
+        <label><input type="radio" name="q9" data-type="Mystical" data-type="Edgy">Kill everyone in the village and take their resources, this world is cruel after all</label>
+      </div>
+
+      <div class="question">
+        <p>You're having a conversation with an acquaintance and have asked them to repeat themselves twice already but still haven't heard what they said. How do you respond?</p>
+        <label><input type="radio" name="q10" data-type="Healer" data-type="Bravery">Laugh and try to continue the conversation, hopefully they wont notice</label>
+        <label><input type="radio" name="q10" data-type="Edgy" data-type="Bravery">Ask them to repeat again, maybe this time you'll hear them</label>
+        <label><input type="radio" name="q10" data-type="Mystical" data-type="Healer">Check your watch and say you're late for an important meeting. Wait, are you even wearing a watch?</label>
+        <label><input type="radio" name="q10" data-type="Mystical" data-type="Edgy">Tell them to speak up, you're starting to get annoyed</label>
+      </div>
+
+      <div class="question">
+        <p>A stranger is running at you looking panicked, what do you do?</p>
+        <label><input type="radio" name="q11" data-type="Healer" data-type="Edgy">Turn and run away with them, they're definitely running from something and so should you!</label>
+        <label><input type="radio" name="q11" data-type="Mystical" data-type="Bravery">Ask them what's going on, you'll help in any way you can</label>
+        <label><input type="radio" name="q11" data-type="Edgy" data-type="Mystical">Do your best to avoid eye-contact and continue on your path, you don't want to deal with any crackheads today</label>
+        <label><input type="radio" name="q11" data-type="Bravery" data-type="Healer">Help them find a place to hide, whatever they're running from must be life-threatening</label>
+      </div>
+
+      <div class="question">
+        <p>You get word of a local missing person and learn there is a hefty reward for their return, do you take on the task?</p>
+        <label><input type="radio" name="q12" data-type="Bravery" data-type="Edgy">Absolutely, anyone who passes up that kind of money is an idiot</label>
+        <label><input type="radio" name="q12" data-type="Healer" data-type="Bravery">Of course! Regardless of reward, someone is in need of help!</label>
+        <label><input type="radio" name="q12" data-type="Healer" data-type="Mystical">No way! No amount of money is worth risking your life</label>
+        <label><input type="radio" name="q12" data-type="Mystical" data-type="Edgy">Nope, your time is WAY more valuable than that</label>
+      </div>
+
+      <div class="question">
+        <p>You find a stranger passed out cold in a park, how do you react?</p>
+        <label><input type="radio" name="q13" data-type="Bravery" data-type="Healer">You call for help, hopefully they're okay!</label>
+        <label><input type="radio" name="q13" data-type="Edgy" data-type="Mystical">You take whatever valuables they have, they won't know a thing</label>
+        <label><input type="radio" name="q13" data-type="Healer" data-type="Mystical">You leave them alone and continue on your journey, you don't want to be a part of whatever is going on there</label>
+        <label><input type="radio" name="q13" data-type="Bravery" data-type="Edgy">You try to wake them up and walk off when that doesn't work. Welp, at least you tried</label>
+      </div>
+
+      <div class="question">
+        <p>You and a group of others are rewarded greatly for a task well done but are expected to share, how do you split it?</p>
+        <label><input type="radio" name="q14" data-type="Edgy" data-type="Mystical">You don't, you are the most deserving of it and therefore take everything for yourself</label>
+        <label><input type="radio" name="q14" data-type="Bravery" data-type="Healer">You split it equally among the group, everyone should get a fair share!</label>
+        <label><input type="radio" name="q14" data-type="Edgy" data-type="Mystical">You give the most to who you believe worked the hardest and go down from there, no participation trophies here</label>
+        <label><input type="radio" name="q14" data-type="Bravery" data-type="Healer">You don't take any of it, knowing you helped someone out is reward enough</label>
+      </div>
+
+      <div class="question">
+        <p>You find a cave leading to an underground oasis, completely untouched by any civilization. What's your next move?</p>
+        <label><input type="radio" name="q15" data-type="Edgy" data-type="Mystical">You stay there forever, this place has everything you need! Who cares about anyone who loves you back home?</label>
+        <label><input type="radio" name="q15" data-type="Bravery" data-type="Healer">You leave and never speak of it to anyone, something this beautiful should remain undisturbed</label>
+        <label><input type="radio" name="q15" data-type="Bravery" data-type="Healer">You return home and tell everyone about the oasis, this could save so many people if treated right!</label>
+        <label><input type="radio" name="q15" data-type="Edgy" data-type="Mystical">You claim it as your own and sell it to the highest bidder, sorry not sorry Mother Nature</label>
+      </div>
+    </form>
+  </div>
 </body>
 </html>
