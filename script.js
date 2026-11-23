@@ -18,9 +18,9 @@ const guildDetails ={
 };
 
 function nextPage(currentPageNum, targetPageNum) {
-    const currentDiv = document.getElementById('page-${currentPageNum');
+    const currentDiv = document.getElementById(`page-${currentPageNum}`);
 
-    if (targetPageNum >currentPageNum) {
+    if (targetPageNum > currentPageNum) {
         const checked = currentDiv.querySelector('input[type="radio"]:checked');
         if (!checked) {
             alert("Please select an answer before continuing :)");
@@ -29,9 +29,11 @@ function nextPage(currentPageNum, targetPageNum) {
     }
 
     currentDiv.style.display = 'none';
-    document.getElementById('page-$targetPageNum}').style.display = 'block';
+    document.getElementById(`page-${targetPageNum}`).style.display = 'block';
 }
 
+document.getElementById('guild-quiz').addEventListener('submit', function(e) {
+    e.preventDefault();
 const tallies = {
     Healer: 0,
     Bravery: 0,
@@ -39,7 +41,7 @@ const tallies = {
     Edgy: 0,
 };
 
-const selectedRadios = document.querySelectorAll('input[type="radio":checked');
+const selectedRadios = document.querySelectorAll('input[type="radio"]:checked');
 
 selectedRadios.forEach(radio => {
     const points = JSON.parse(radio.getAttribute('data-scores'));
@@ -58,4 +60,8 @@ const resultInfo = guildDetails[topTrait];
 document.getElementById('guild-quiz').style.display = 'none';
 const resultBox = document.getElementById('result-box');
 resultBox.style.display = 'block';
-resultBox.innerHTML = ' <h2>${result.Info.title}</h2> <p>${result.Info.description}</p>';
+resultBox.innerHTML = `
+<h2>${resultInfo.title}</h2>
+<p>${resultInfo.description}</p>
+`;
+});

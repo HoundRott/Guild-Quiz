@@ -17,9 +17,11 @@
         <label><input type="radio" name="q1" data-scores='{"Edgy": 2, "Mystical": 1}'>Dark</label>
         <br>
         <label><input type="radio" name="q1" data-scores='{"Edgy": 1, "Healer": 2}'>Pastel</label>
+        <br>
+        <button type="button" onclick="nextPage(1,2)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-2">
+      <div class="quiz-page" id="page-2" style="display:none;">
         <p>What is your favorite season?</p>
         <label><input type="radio" name="q2" data-scores='{"Healer": 2, "Bravery": 1}' required>Spring</label>
         <br>
@@ -28,9 +30,12 @@
         <label><input type="radio" name="q2" data-scores='{"Edgy": 1, "Mystical": 2}'>Autumn</label>
         <br>
         <label><input type="radio" name="q2" data-scores='{"Edgy": 2, "Mystical": 1}'>Winter</label>
+        <br>
+        <button type="button" onclick="nextPage(2,1)">Previous</button>
+        <button type="button" onclick="nextPage(2,3)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-3">
+      <div class="quiz-page" id="page-3" style="display:none;">
         <p>What element are you most drawn to?</p>
         <label><input type="radio" name="q3" data-scores='{"Edgy": 1, "Bravery": 2}' required>Earth</label>
         <br>
@@ -39,9 +44,12 @@
         <label><input type="radio" name="q3" data-scores='{"Edgy": 2, "Bravery": 1}'>Fire</label>
         <br>
         <label><input type="radio" name="q3" data-scores='{"Mystical": 1, "Healer": 2}'>Water</label>
+        <br>
+        <button type="button" onclick="nextPage(3,2)">Previous</button>
+        <button type="button" onclick="nextPage(3,4)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-4">
+      <div class="quiz-page" id="page-4" style="display:none;">
         <p>Your friends call you asking for help, how do you react?</p>
         <label><input type="radio" name="q4" data-scores='{"Bravery": 2, "Healer": 1}' required>Jump into action, they're your friends after all!</label>
         <br>
@@ -50,9 +58,12 @@
         <label><input type="radio" name="q4" data-scores='{"Bravery": 1, "Healer": 2}'>Hesitantly agree, you're scared but your friends need you</label>
         <br>
         <label><input type="radio" name="q4" data-scores='{"Mystical": 2, "Edgy": 1}'>Ask what's in it for you, why would you go through all that effort for nothing?</label>
+        <br>
+        <button type="button" onclick="nextPage(4,3)">Previous</button>
+        <button type="button" onclick="nextPage(4,5)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-5">
+      <div class="quiz-page" id="page-5" style="display:none;">
         <p>You find a lost wallet on the ground, what do you do?</p>
         <label><input type="radio" name="q5" data-scores='{"Bravery": 2, "Healer": 2}' required>Find the owner and return it, stealing is bad!</label>
         <br>
@@ -61,9 +72,12 @@
         <label><input type="radio" name="q5" data-scores='{"Mystical": 2, "Healer": 1}'>Ignore it and leave, maybe someone else will do something with it</label>
         <br>
         <label><input type="radio" name="q5" data-scores='{"Bravery": 1, "Edgy": 2}'>Return it after taking something, no good deed is done without compensation; for you at least</label>
+        <br>
+        <button type="button" onclick="nextPage(5,4)">Previous</button>
+        <button type="button" onclick="nextPage(5,6)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-6">
+      <div class="quiz-page" id="page-6" style="display:none;">
         <p>Someone breaks into your home late at night, what's your next move?</p>
         <label><input type="radio" name="q6" data-scores='{"Bravery": 2, "Healer": 1}' required>Find a weapon to defend yourself, you don't want to fight but you won't back down from one either</label>
         <br>
@@ -72,9 +86,12 @@
         <label><input type="radio" name="q6" data-scores='{"Bravery": 2, "Edgy": 2}'>Attack the intruder head on, they'll rue the day they broke into YOUR home</label>
         <br>
         <label><input type="radio" name="q6" data-scores='{"Mystical": 2, "Edgy": 1}'>Escape through a window, your safety is more important than some objects</label>
+        <br>
+        <button type="button" onclick="nextPage(6,5)">Previous</button>
+        <button type="button" onclick="nextPage(6,7)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-7">
+      <div class="quiz-page" id="page-7" style="display:none;">
         <p>A stranger runs up to you on the street declaring you their enemy and attempts to battle you, how do you respond?</p>
         <label><input type="radio" name="q7" data-scores='{"Mystical": 2, "Edgy": 1}' required>Ask which one they are, you have many enemies already</label>
         <br>
@@ -83,18 +100,24 @@
         <label><input type="radio" name="q7" data-scores='{"Mystical": 1, "Healer": 2}'>Try to talk through the situation with them, this is all some misunderstanding</label>
         <br>
         <label><input type="radio" name="q7" data-scores='{"Bravery": 1, "Edgy": 2}'>Battle them for the fun of it, why not?</label>
+        <br>
+        <button type="button" onclick="nextPage(7,6)">Previous</button>
+        <button type="button" onclick="nextPage(7,8)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-8">
+      <div class="quiz-page" id="page-8" style="display:none;">
         <p>You're walking alone at night and hear a strange noise, what do you do?</p>
         <label><input type="radio" name="q8" data-scores='{"Bravery": 2, "Healer": 2, "Mystical": 1}' required>Investigate the noise, maybe it's something in need of help</label>
         <br>
         <label><input type="radio" name="q8" data-scores='{"Edgy": 2, "Healer": 1, "Mystical": 1}'>Leave the area immediately, you're not dealing with that</label>
         <br>
         <label><input type="radio" name="q8" data-scores='{"Edgy": 2, "Mystical": 2, "Bravery": 1}'>Ignore it and continue on your walk, you know whatever it is can't win against you</label>
+        <br>
+        <button type="button" onclick="nextPage(8,7)">Previous</button>
+        <button type="button" onclick="nextPage(8,9)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-9">
+      <div class="quiz-page" id="page-9" style="display:none;">
         <p>You find yourself lost and starving. While looking for food, you come across a village of locals. What is your next move?</p>
         <label><input type="radio" name="q9" data-scores='{"Bravery": 2, "Healer": 1}' required>Ask them for help, maybe they'll be kind enough to feed you</label>
         <br>
@@ -103,9 +126,12 @@
         <label><input type="radio" name="q9" data-scores='{"Bravery": 1, "Healer": 2}'>Look for food elsewhere, who knows what they would do to you?</label>
         <br>
         <label><input type="radio" name="q9" data-scores='{"Edgy": 2, "Mystical": 1}'>Kill everyone in the village and take their resources, this world is cruel after all</label>
+        <br>
+        <button type="button" onclick="nextPage(9,8)">Previous</button>
+        <button type="button" onclick="nextPage(9,10)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-10">
+      <div class="quiz-page" id="page-10" style="display:none;">
         <p>You're having a conversation with an acquaintance and have asked them to repeat themselves twice already but still haven't heard what they said. How do you respond?</p>
         <label><input type="radio" name="q10" data-scores='{"Bravery": 1, "Healer": 2}' required>Laugh and try to continue the conversation, hopefully they wont notice</label>
         <br>
@@ -114,9 +140,12 @@
         <label><input type="radio" name="q10" data-scores='{"Mystical": 2, "Healer": 1}'>Check your watch and say you're late for an important meeting. Wait, are you even wearing a watch?</label>
         <br>
         <label><input type="radio" name="q10" data-scores='{"Edgy": 2, "Mystical": 1}'>Tell them to speak up, you're starting to get annoyed</label>
+        <br>
+        <button type="button" onclick="nextPage(10,9)">Previous</button>
+        <button type="button" onclick="nextPage(10,11)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-11">
+      <div class="quiz-page" id="page-11" style="display:none;">
         <p>A stranger is running at you looking panicked, what do you do?</p>
         <label><input type="radio" name="q11" data-scores='{"Healer": 2, "Edgy": 1}' required>Turn and run away with them, they're definitely running from something and so should you!</label>
         <br>
@@ -125,9 +154,12 @@
         <label><input type="radio" name="q11" data-scores='{"Mystical": 1, "Edgy": 2}'>Do your best to avoid eye-contact and continue on your path, you don't want to deal with any crackheads today</label>
         <br>
         <label><input type="radio" name="q11" data-scores='{"Bravery": 2, "Healer": 2}'>Help them find a place to hide, whatever they're running from must be life-threatening</label>
+        <br>
+        <button type="button" onclick="nextPage(11,10)">Previous</button>
+        <button type="button" onclick="nextPage(11,12)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-12">
+      <div class="quiz-page" id="page-12" style="display:none;">
         <p>You get word of a local missing person and learn there is a hefty reward for their return, do you take on the task?</p>
         <label><input type="radio" name="q12" data-scores='{"Bravery": 1, "Edgy": 2}' required>Absolutely, anyone who passes up that kind of money is an idiot</label>
         <br>
@@ -136,9 +168,12 @@
         <label><input type="radio" name="q12" data-scores='{"Mystical": 1, "Healer": 2}'>No way! No amount of money is worth risking your life</label>
         <br>
         <label><input type="radio" name="q12" data-scores='{"Mystical": 2, "Edgy": 1}'>Nope, your time is WAY more valuable than that</label>
+        <br>
+        <button type="button" onclick="nextPage(12,11)">Previous</button>
+        <button type="button" onclick="nextPage(12,13)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-13">
+      <div class="quiz-page" id="page-13" style="display:none;">
         <p>You find a stranger passed out cold in a park, how do you react?</p>
         <label><input type="radio" name="q13" data-scores='{"Bravery": 2, "Healer": 2}' required>You call for help, hopefully they're okay!</label>
         <br>
@@ -147,9 +182,12 @@
         <label><input type="radio" name="q13" data-scores='{"Mystical": 2, "Healer": 1}'>You leave them alone and continue on your journey, you don't want to be a part of whatever is going on there</label>
         <br>
         <label><input type="radio" name="q13" data-scores='{"Bravery": 1, "Edgy": 2}'>You try to wake them up and walk off when that doesn't work. Welp, at least you tried</label>
+        <br>
+        <button type="button" onclick="nextPage(13,12)">Previous</button>
+        <button type="button" onclick="nextPage(13,14)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-14">
+      <div class="quiz-page" id="page-14" style="display:none;">
         <p>You and a group of others are rewarded greatly for a task well done but are expected to share, how do you split it?</p>
         <label><input type="radio" name="q14" data-scores='{"Mystical": 1, "Edgy": 2}' required>You don't, you are the most deserving of it and therefore take everything for yourself</label>
         <br>
@@ -158,9 +196,12 @@
         <label><input type="radio" name="q14" data-scores='{"Mystical": 2, "Edgy": 1}'>You give the most to who you believe worked the hardest and go down from there, no participation trophies here</label>
         <br>
         <label><input type="radio" name="q14" data-scores='{"Bravery": 2, "Healer": 1}'>You don't take any of it, knowing you helped someone out is reward enough</label>
+        <br>
+        <button type="button" onclick="nextPage(14,13)">Previous</button>
+        <button type="button" onclick="nextPage(14,15)">Next</button>
       </div>
 
-      <div class="quiz-page" id="page-15">
+      <div class="quiz-page" id="page-15" style="display:none;">
         <p>You find a cave leading to an underground oasis, completely untouched by any civilization. What's your next move?</p>
         <label><input type="radio" name="q15" data-scores='{"Mystical": 2, "Edgy": 1}' required>You stay there forever, this place has everything you need! Who cares about anyone who loves you back home?</label>
         <br>
@@ -169,13 +210,12 @@
         <label><input type="radio" name="q15" data-scores='{"Bravery": 1, "Healer": 2}'>You return home and tell everyone about the oasis, this could save so many people if treated right!</label>
         <br>
         <label><input type="radio" name="q15" data-scores='{"Mystical": 1, "Edgy": 2}'>You claim it as your own and sell it to the highest bidder, sorry not sorry Mother Nature</label>
+        <br>
+        <button type="button" onclick="nextPage(15,14)">Previous</button>
+        <button type="submit">Submit</button>
       </div>
-
-      <button type="button" onclick="nextPage(15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1)">Previous</button>
-      <button type="submit">Submit</button>
-    </div>
     </form>
-    <div id="result-box" style="display: none"></div>
+    <div id="result-box" style="display:none;"></div>
 
     <script src="script.js"></script>
 </body>
