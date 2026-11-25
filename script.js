@@ -63,5 +63,6 @@ resultBox.style.display = 'block';
 resultBox.innerHTML = `
 <h2>${resultInfo.title}</h2>
 <p>${resultInfo.description}</p>
+<button type="button" id="restart-btn" onclick="location.reload()">Retake Quiz</button>
 `;
 });
